@@ -31,7 +31,7 @@ public class NewClass {
 	            int c = ((3*a)-(a+b));
                 //A formula realiza a conta e exibe o valor de C
                 System.out.println("o valor minimo de C para média e mediana ser a mesma é "+ c);
-                //caso os valores digitados pelo usuario satisfaça as restriçoes o loop termina
+                //caso os valores digitados pelo usuario satisfaça as restrições o loop termina
                 loop = false;
             }
         }
