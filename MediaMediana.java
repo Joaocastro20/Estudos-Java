@@ -21,7 +21,7 @@ public class NewClass {
                 System.out.println("O valor B não pode ultrapassar 1.000.000.000");
             }else{
                 //em uma relação onde A+B+C/3 = A logo vemos que C = (3*A)-(A+B)
-	    int c = ((3*a)-(a+b));
+	            int c = ((3*a)-(a+b));
                 //A formula realiza a conta e exibe o valor de C
                 System.out.println("o valor minimo para media e mediana ser a mesma é "+ c);
                 loop = false;
