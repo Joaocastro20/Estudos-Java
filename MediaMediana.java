@@ -23,7 +23,7 @@ public class NewClass {
                 System.out.println("O valor B não pode ultrapassar 1.000.000.000");
             }
             //não menos importante o valor A nao pode ser menor que 1
-            else if(a < 0){
+            else if(a <= 0){
             System.out.println("O valor A não pode ser menor que 1!");
             }
             //em uma relação onde A+B+C/3 = A, logo vemos que C = (3*A)-(A+B)
