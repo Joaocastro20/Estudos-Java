@@ -26,7 +26,6 @@ public class NewClass {
                 System.out.println("o valor minimo para media e mediana ser a mesma é "+ c);
                 loop = false;
             }
-        
         }
         
     }
