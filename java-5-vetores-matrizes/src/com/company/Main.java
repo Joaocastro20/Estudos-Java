@@ -9,7 +9,8 @@ public class Main {
         auto[i] = i + 5 ;
 
     }
-        System.out.println(auto[0]);
-        System.out.println(auto[9]);
+    for(int i:auto) {
+        System.out.println(auto[i]);
+    }
     }
 }
