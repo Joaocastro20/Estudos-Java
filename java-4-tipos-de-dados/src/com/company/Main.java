@@ -12,7 +12,7 @@ public class Main {
         byte n9 =  100;
         char l = (char) (n9 + 97);
         String letras = "amsdkawkdakwmdakwmd";
-        
+
     //nao primarios
         Integer n3 = 999999999;
         Short n4 = 10000;
