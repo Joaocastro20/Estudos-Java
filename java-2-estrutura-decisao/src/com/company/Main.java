@@ -9,7 +9,8 @@ public class Main {
 	Scanner leitor = new Scanner(System.in);
     System.out.println("Digite um numero e faça verificaçoes:");
     int n = leitor.nextInt();
-    if (n > 0){
+    //String sit = "positivo";
+    /*if (n > 0){
         System.out.println("o numero "+n+" é positivo");
     }else{
         System.out.println("o numero "+n+" é negativo");
@@ -18,7 +19,22 @@ public class Main {
         System.out.println("o numero "+n+" é par");
     }else{
         System.out.println("o numero "+n+" é impar");
-    }
+    }*/
+       // sit = (n > 0) ? "positivo":"negativo";
+        //System.out.println(sit);
+        //testando swith
+    switch (n){
+        case 1:
+            System.out.println("é 1");
+            break;
+        case 2:
+            System.out.println("é 2");
+            break;
+        default:
+            System.out.println("nao é 2 nem 1");
 
+
+
+    }
     }
 }
