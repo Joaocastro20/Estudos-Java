@@ -15,7 +15,7 @@ public class ExerciciosVI {
         Arrays.stream(lista).sorted();
         for(int i = 0;i< lista.length;i++){
             System.out.println(lista[i]);
-            
+
         }
 
     }
