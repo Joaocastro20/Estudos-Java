@@ -4,6 +4,7 @@ public class Conta {
     private int numero;
     private String cliente;
 
+    //atributo estatico
     public static int contador = 1;
 
     public Conta(String cliente) {
@@ -26,6 +27,10 @@ public class Conta {
 
     public void setCliente(String cliente) {
         this.cliente = cliente;
+    }
+
+    public static int proxConta(){
+        return Conta.contador;
     }
 
 }

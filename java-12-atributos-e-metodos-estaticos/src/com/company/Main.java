@@ -14,5 +14,7 @@ public class Main {
         Conta c3 = new Conta("jose");
         System.out.println(c3.getNumero());
         System.out.println(c3.getCliente());
+
+        System.out.println("a proxima conta é "+Conta.proxConta());
     }
 }
