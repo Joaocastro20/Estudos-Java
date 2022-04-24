@@ -4,9 +4,6 @@ public class Cliente {
     private String name;
     private int idade;
 
-    public Cliente() {
-    }
-
     public Cliente(String name, int idade) {
         this.name = name;
         this.idade = idade;
