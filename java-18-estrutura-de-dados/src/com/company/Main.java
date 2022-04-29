@@ -14,5 +14,9 @@ public class Main {
         System.out.println(lista.tamanho());
         System.out.println(lista.pega(1));
         System.out.println(lista.verificar(al1));
+    lista.remove(0);
+        System.out.println(lista);
     }
+
+
 }

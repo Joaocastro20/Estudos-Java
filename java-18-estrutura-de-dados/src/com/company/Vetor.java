@@ -11,6 +11,7 @@ public class Vetor {
      * @param aluno
      */
     public void adicionar(Aluno aluno){
+        this.garantirEspaco();
         this.alunos[total] = aluno;
         total ++;
     }
@@ -21,7 +22,16 @@ public class Vetor {
      * @param aluno
      */
     public void adicionar(int posicao, Aluno aluno){
-        this.alunos[posicao] = aluno;
+        this.garantirEspaco();
+        if(!posicaoOcupada(posicao)){
+            throw new IllegalArgumentException("posição invalida!");
+        }
+        for(int i = total - 1;i>=posicao;i-=1){
+            alunos[i+1] = alunos[i];
+        }
+        alunos[posicao] = aluno;
+        total++;
+
     }
 
 
@@ -43,7 +53,10 @@ public class Vetor {
      * @param posicao
      */
     public void remove(int posicao){
-        this.alunos[posicao] = null;
+     for(int i = posicao; i < this.total;i++){
+         this.alunos[i] = this.alunos[i+1];
+     }
+     total--;
     }
 
     /** verifica se ha determinado aluno na lista
@@ -73,5 +86,14 @@ public class Vetor {
     }
     private boolean posicaoOcupada(int posicao){
         return posicao >= 0 && posicao < total;
+    }
+    private void garantirEspaco(){
+        if(total == alunos.length){
+            Aluno novoArray[] = new Aluno[alunos.length*2];
+            for(int i = 0;i<alunos.length;i++){
+                novoArray[i] = alunos[i];
+            }
+            this.alunos = novoArray;
+        }
     }
 }
