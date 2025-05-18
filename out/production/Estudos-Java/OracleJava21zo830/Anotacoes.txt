@@ -1,0 +1,11 @@
+Java:
+    Java é uma linguagem de programação e uma plataforma de computação para desenvolvimento de aplicativos.
+    Na verdade, ele foi lançado pela Sun Microsystems em 1995 e depois adquirido pela Oracle Corporation.
+    Então agora ela é de fato uma das linguagens de programação mais usadas e populares do planeta.
+    Agora, Java também é uma linguagem independente de plataforma.
+    Isso significa que não é específico de nenhum processador ou sistema operacional.
+    A intenção é permitir que os desenvolvedores de aplicativos escrevam uma vez, executem em qualquer lugar, e isso significa apenas que o compilado
+    Assim, por exemplo, você pode escrever e compilar um programa Java no Unix e executá-lo no Microsoft Windows,
+    Máquinas Macintosh ou Linux sem nenhuma modificação no código-fonte.
+    Isso é feito compilando um programa Java em uma linguagem intermediária chamada bytecode.
+    As ferramentas de desenvolvimento fornecem tudo o que você precisa para compilar, executar, monitorar, depurar,
