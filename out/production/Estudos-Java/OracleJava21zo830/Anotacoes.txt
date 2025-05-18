@@ -9,3 +9,44 @@ Java:
     Máquinas Macintosh ou Linux sem nenhuma modificação no código-fonte.
     Isso é feito compilando um programa Java em uma linguagem intermediária chamada bytecode.
     As ferramentas de desenvolvimento fornecem tudo o que você precisa para compilar, executar, monitorar, depurar,
+Compilador:
+    Tudo bem, tudo bem.
+    Olá meus amigos.
+    Bem vindo de volta.
+    Então, no vídeo anterior, escrevemos o primeiro programa Java e imprimimos a expressão Hello World nele
+    o console.
+    Agora vamos dar uma olhada nos bastidores, por assim dizer, e entender como nosso código-fonte Java Hello World
+    o arquivo foi compilado e consequentemente executado.
+    Primeiro, escrevemos o código-fonte Java no arquivo Hello World Java usando o IntelliJ IDE.
+    Um arquivo de origem contém código escrito na linguagem de programação Java que você e outros programadores
+    pode entender.
+    Agora, como parte da criação de um projeto IDE, um esqueleto de arquivo de origem será gerado automaticamente.
+    Você então modificará o arquivo de origem para adicionar a mensagem Hello World e, em seguida, o programa deverá ser
+    compilado em bytecode.
+    O IDE invoca o compilador de linguagem de programação Java Javac, que pega seu arquivo de origem e traduz
+    seu texto em instruções que a Máquina Virtual Java pode entender.
+    As instruções contidas neste arquivo são conhecidas como bytecodes por bytecode.
+    Sim, estamos falando de zeros e uns.
+    Em outras palavras, o código Java que escrevemos é convertido em zeros e uns pelo compilador Java.
+    E como resultado, o compilador Java compila o código-fonte e gera a classe hello world dot
+    arquivo.
+    Agora, este arquivo de classe pode ser executado em qualquer plataforma ou sistema operacional por uma máquina virtual Java.
+    A máquina virtual Java traduz esse bytecode, ou seja, o arquivo de classe de ponto que consiste em zeros
+    e outros em código de máquina nativo que as máquinas podem executar.
+    Também.
+    O código da biblioteca é executado pela máquina virtual Java e, como resultado, vemos as palavras hello world no
+    tela.
+    Então, as etapas de compilação e execução do código que escrevemos são mais ou menos assim.
+    Quer dizer, acho que você entendeu, mas quero repetir rapidamente.
+    Vamos repassar isso mais uma vez.
+    Então as classes Java que criamos têm a extensão Dot Java.
+    E quando executamos nosso código, o compilador Java o converte em um arquivo com a extensão de classe dot,
+    que consiste em bytecodes que a máquina virtual Java pode entender, ou seja, zeros e uns, e
+    a máquina virtual Java traduz o arquivo de classe dot que consiste em zeros e uns em uma máquina nativa
+    código que as máquinas podem executar.
+    E então vemos a saída do programa no console.
+    Tudo bem meus amigos.
+    Então, quando voltarmos no próximo vídeo, daremos uma olhada mais de perto no código que nos permite
+    para escrever Hello World no console.
+    Tudo bem.
+    Vejo vocês no próximo vídeo.
