@@ -4,6 +4,10 @@ public class Carro {
     int velocidade;
     boolean movimento;
 
+    public Carro(){
+
+    }
+
     public Carro(int velocidade, boolean movimento) {
         this.velocidade = velocidade;
         this.movimento = movimento;
