@@ -1,4 +1,4 @@
-package OracleJava21zo830.Inheritance;
+package OracleJava21zo830.Inheritance.Sealed;
 
 public class TestInheritance {
     public static void main(String[] args) {

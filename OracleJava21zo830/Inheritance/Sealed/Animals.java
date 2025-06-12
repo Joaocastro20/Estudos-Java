@@ -1,6 +1,6 @@
-package OracleJava21zo830.Inheritance;
+package OracleJava21zo830.Inheritance.Sealed;
 
-public class Animals {
+ sealed class Animals permits Dog, Bird {
 
     int legs;
 
