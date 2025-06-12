@@ -2,7 +2,7 @@ package OracleJava21zo830.Inheritance.Overiding;
 
 public class Vehicle {
 
-    public void start(){
+    void start(){
         System.out.println("Start");
     }
 
