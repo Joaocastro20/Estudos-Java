@@ -6,4 +6,9 @@ public class Car extends Vehicle{
     int move() {
         return 380;
     }
+
+    @Override
+    void ligar() {
+        super.ligar();
+    }
 }
